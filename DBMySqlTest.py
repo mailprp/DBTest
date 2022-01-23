@@ -41,6 +41,8 @@ mycursor.execute("select * from student")
 #row = mycursor.fetchone()  # fetch one row
 #print(row[0], row[1])
 
+
+
 while True:
 	row = mycursor.fetchone()   # fetch a single record from cursor
 	if row != None:
