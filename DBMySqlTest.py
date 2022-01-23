@@ -22,14 +22,18 @@ mycursor.execute("select * from student")
 mycursor.execute("select * from student")
 for d in mycursor:
 	print(d)
-
+'''
 #Insert data into table
 print("====== Data from Table =======")
 mycursor.execute("insert into student values ('Student_01' , 'NYU')")
+mycursor.execute("insert into student values ('Student_02' , 'NYU')")
+mycursor.execute("insert into student values ('Student_03' , 'NYU')")
+mycursor.execute("insert into student values ('Student_04' , 'NYU')")
+mycursor.execute("insert into student values ('Student_05' , 'NYU')")
 
 for d in mycursor:
 	print(d)
-'''
+
 
 #Get data from table
 print("====== Data from Table =======")
